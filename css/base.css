@@ -1,6 +1,12 @@
+html {
+    background-color: rgb(255, 255, 250);
+    color: rgb(38, 31, 27);
+}
+
 #logo {
-    width: 120px;
-    height: 120px
+    margin-left: 10px;
+    width: auto;
+    height: 100px;
 }
 
 .google_font {
@@ -26,19 +32,30 @@
 
 header{
     position: fixed;
-    top: 10px;
+    top: 0;
     width: 100%;
     left: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 250,0.5);
 }
 
 .main {
-    margin-top: 160px;
+    margin-top: 150px;
     text-align: center;
 }
 
 .store_img {
     width: 600px;
+    height: auto;
+}
+
+.interior_img{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.interior_img img {
+    width: 295px;
     height: auto;
 }
 
