@@ -3,18 +3,43 @@
     height: 120px
 }
 
-header {
-    border-radius: 15px;
-    box-shadow: 1px 0 5px black;
-    padding: 5px;
+.google_font {
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
 }
 
-header div a {
-    margin-left: 15px;
+.header div a {
+    margin-left: 10px;
+    margin-right: 15px;
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+}
+
+.main {
+    margin-top: 160px;
+    text-align: center;
+}
+
+.store_img {
+    width: 600px;
+    height: auto;
 }
 
 @media screen and (max-width: 720px) {
