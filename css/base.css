@@ -1,6 +1,11 @@
 html {
     background-color: rgb(255, 255, 250);
     color: rgb(38, 31, 27);
+    animation: op 2s ease-out forwards;
+}
+
+body {
+    margin: 0;
 }
 
 #logo {
@@ -44,21 +49,36 @@ header{
 }
 
 .store_img {
-    width: 600px;
+    width: 100%;
     height: auto;
 }
 
 .interior_img{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 1px;
 }
 
 .interior_img img {
-    width: 295px;
+    width: 50%;
     height: auto;
 }
 
+.body {
+    width: 70%;
+    margin: auto;
+}
+
+footer {
+    padding: 30px;
+    background-color: rgb(78, 78, 78);
+    color: rgb(223, 223, 223);
+}
 @media screen and (max-width: 720px) {
 	
+}
+
+@keyframes op {
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
